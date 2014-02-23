@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--LANGUAGE: Russian -->
+
+    <!--Global App info-->
+    <string name="app_name">Проект Дирижабль</string>
+    <string name="action_settings">настройки</string>
+
+    <!--MainActivity-->
+    <string name="hello_world">Привет мир!</string>
+    <string name="camera_data">Данные камеры</string>
+    <string name="sensor_data">Датчик данных</string>
+    <string name="right_top">w</string>
+    <string name="right_left">x</string>
+    <string name="right_right">y</string>
+    <string name="right_bottom">z</string>
+    <string name="left_top">a</string>
+    <string name="left_left">b</string>
+    <string name="left_right">c</string>
+    <string name="left_bottom">d</string>
+    <string name="lights">огни</string>
+    <string name="camera_status">Состояние камеры</string>
+    <string name="sensor_status">Датчик Статус</string>
+    <string name="network_status">Состояние сети</string>
+
+    <!--VideoScreen-->
+    <string name="title_activity_video_screen">Видео экран</string>
+
+</resources>

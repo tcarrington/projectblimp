@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--LANGUAGE: Japanese -->
+
+    <!--Global App info-->
+    <string name="app_name">プロジェクト飛行船</string>
+    <string name="action_settings">[設定]</string>
+
+    <!--MainActivity-->
+    <string name="hello_world">世界こんにちは！</string>
+    <string name="camera_data">カメラデータ</string>
+    <string name="sensor_data">センサーデータ</string>
+    <string name="right_top">w</string>
+    <string name="right_left">x</string>
+    <string name="right_right">y</string>
+    <string name="right_bottom">z</string>
+    <string name="left_top">a</string>
+    <string name="left_left">b</string>
+    <string name="left_right">c</string>
+    <string name="left_bottom">d</string>
+    <string name="lights">ライト</string>
+    <string name="camera_status">カメラの状態</string>
+    <string name="sensor_status">センサーのステータス</string>
+    <string name="network_status">ネットワークの状態</string>
+
+    <!--VideoScreen-->
+    <string name="title_activity_video_screen">ビデオ画面</string>
+
+</resources>

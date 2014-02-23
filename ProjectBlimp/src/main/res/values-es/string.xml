@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--LANGUAGE: Spanish -->
+
+    <!--Global App info-->
+    <string name="app_name">Proyecto Blimp</string>
+    <string name="action_settings">Configuración</string>
+
+    <!--MainActivity-->
+    <string name="hello_world">¡Hola, mundo!</string>
+    <string name="camera_data">datos de la Cámara</string>
+    <string name="sensor_data">datos del sensor</string>
+    <string name="right_top">w</string>
+    <string name="right_left">x</string>
+    <string name="right_right">y</string>
+    <string name="right_bottom">z</string>
+    <string name="left_top">a</string>
+    <string name="left_left">b</string>
+    <string name="left_right">c</string>
+    <string name="left_bottom">d</string>
+    <string name="lights">luces</string>
+    <string name="camera_status">Estado de la cámara</string>
+    <string name="sensor_status">Estado del sensor</string>
+    <string name="network_status">Estado de la red</string>
+
+    <!--VideoScreen-->
+    <string name="title_activity_video_screen">Screen Video</string>
+
+</resources>

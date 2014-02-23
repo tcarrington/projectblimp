@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--LANGUAGE: English -->
+    <!--LANGUAGE: German -->
 
     <!--Global App info-->
-    <string name="app_name">Project Blimp</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">Projekt Blimp</string>
+    <string name="action_settings">Einstellungen</string>
 
     <!--MainActivity-->
-    <string name="hello_world">Hello world!</string>
-    <string name="camera_data">Camera Data</string>
+    <string name="hello_world">Hallo Welt!</string>
+    <string name="camera_data">Kamera-Daten</string>
     <string name="sensor_data">Sensor Data</string>
     <string name="right_top">w</string>
     <string name="right_left">x</string>
@@ -18,10 +18,10 @@
     <string name="left_left">b</string>
     <string name="left_right">c</string>
     <string name="left_bottom">d</string>
-    <string name="lights">lights</string>
-    <string name="camera_status">Camera Status</string>
-    <string name="sensor_status">Sensor Status</string>
-    <string name="network_status">Network Status</string>
+    <string name="lights">Beleuchtung</string>
+    <string name="camera_status">Kamerastatus</string>
+    <string name="sensor_status">Sensorstatus</string>
+    <string name="network_status">Netzwerkstatus</string>
 
     <!--VideoScreen-->
     <string name="title_activity_video_screen">Video Screen</string>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--LANGUAGE: Hindi -->
+
+    <!--Global App info-->
+    <string name="app_name">परियोजना ब्लींप</string>
+    <string name="action_settings">सेटिंग्स</string>
+
+    <!--MainActivity-->
+    <string name="hello_world">दुनिया नमस्कार!</string>
+    <string name="camera_data">कैमरा डेटा</string>
+    <string name="sensor_data">सेंसर डाटा</string>
+    <string name="right_top">w</string>
+    <string name="right_left">x</string>
+    <string name="right_right">y</string>
+    <string name="right_bottom">z</string>
+    <string name="left_top">a</string>
+    <string name="left_left">b</string>
+    <string name="left_right">c</string>
+    <string name="left_bottom">d</string>
+    <string name="lights">रोशनी</string>
+    <string name="camera_status">कैमरा स्थिति</string>
+    <string name="sensor_status">सेंसर स्थिति</string>
+    <string name="network_status">नेटवर्क स्थिति</string>
+
+    <!--VideoScreen-->
+    <string name="title_activity_video_screen">Video Screen</string>
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--LANGUAGE: Korean -->
+
+    <!--Global App info-->
+    <string name="app_name">프로젝트 소형 연식 비행선</string>
+    <string name="action_settings">설정</string>
+
+    <!--MainActivity-->
+    <string name="hello_world">Hello world!</string>
+    <string name="camera_data">세계 안녕하세요!</string>
+    <string name="sensor_data">센서 데이터</string>
+    <string name="right_top">w</string>
+    <string name="right_left">x</string>
+    <string name="right_right">y</string>
+    <string name="right_bottom">z</string>
+    <string name="left_top">a</string>
+    <string name="left_left">b</string>
+    <string name="left_right">c</string>
+    <string name="left_bottom">d</string>
+    <string name="lights">조명</string>
+    <string name="camera_status">카메라 상태</string>
+    <string name="sensor_status">센서 상태</string>
+    <string name="network_status">네트워크 상태</string>
+
+    <!--VideoScreen-->
+    <string name="title_activity_video_screen">비디오 화면</string>
+
+</resources>

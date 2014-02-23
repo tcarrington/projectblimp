@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--LANGUAGE: Arabic -->
+
+    <!--Global App info-->
+    <string name="app_name">مشروع المنطاد</string>
+    <string name="action_settings">إعدادات</string>
+
+    <!--MainActivity-->
+    <string name="hello_world">مرحبا العالم!</string>
+    <string name="camera_data">الكاميرا البيانات</string>
+    <string name="sensor_data">استشعار البيانات</string>
+    <string name="right_top">w</string>
+    <string name="right_left">x</string>
+    <string name="right_right">y</string>
+    <string name="right_bottom">z</string>
+    <string name="left_top">a</string>
+    <string name="left_left">b</string>
+    <string name="left_right">c</string>
+    <string name="left_bottom">d</string>
+    <string name="lights">أضواء</string>
+    <string name="camera_status">الحالة الكاميرا</string>
+    <string name="sensor_status">الحالة الاستشعار</string>
+    <string name="network_status">الحالة الشبكة</string>
+
+    <!--VideoScreen-->
+    <string name="title_activity_video_screen">شاشة الفيديو</string>
+
+</resources>
