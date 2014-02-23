@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- LANGUAGE: Simplified Chinese -->
+    
+    <!--Global App info-->
+    <string name="app_name">飞艇项目</string>
+    <string name="action_settings">设置</string>
+
+    <!--MainActivity-->
+    <string name="hello_world">你好世界！</string>
+    <string name="camera_data">相机资料</string>
+    <string name="sensor_data">传感器数据</string>
+    <string name="right_top">w</string>
+    <string name="right_left">x</string>
+    <string name="right_right">y</string>
+    <string name="right_bottom">z</string>
+    <string name="left_top">a</string>
+    <string name="left_left">b</string>
+    <string name="left_right">c</string>
+    <string name="left_bottom">d</string>
+    <string name="lights">灯火</string>
+    <string name="camera_status">相机状态</string>
+    <string name="sensor_status">传感器状态</string>
+    <string name="network_status">网络状态</string>
+
+    <!--VideoScreen-->
+    <string name="title_activity_video_screen">视频画面</string>
+
+</resources>

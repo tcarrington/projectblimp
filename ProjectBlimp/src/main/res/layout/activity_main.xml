@@ -22,9 +22,11 @@
                 android:layout_width="match_parent"
                 android:layout_weight="1" >
                 <Button
+                    android:id="@+id/sensor_data"
                     android:layout_height="match_parent"
                     android:layout_width="match_parent"
-                    android:text="Sensor Data" />
+                    android:text="@string/sensor_data"
+                    android:onClick="sensor_data" />
             </LinearLayout>
 
             <LinearLayout
@@ -33,9 +35,11 @@
                 android:layout_weight="1" >
 
                 <Button
+                    android:id="@+id/camera_data"
                     android:layout_height="match_parent"
                     android:layout_width="match_parent"
-                    android:text="Camera Data" />
+                    android:text="@string/camera_data"
+                    android:onClick="camera_data"/>
 
             </LinearLayout>
 
@@ -45,9 +49,11 @@
                 android:layout_weight="1" >
 
                 <Button
+                    android:id="@+id/lights"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Lights" />
+                    android:text="@string/lights"
+                    android:onClick="lights" />
 
             </LinearLayout>
 
@@ -84,10 +90,12 @@
                     android:layout_weight="1" >
 
                     <Button
+                        android:id="@+id/left_top"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:textSize="40dp"
-                        android:text="a" />
+                        android:text="@string/left_top"
+                        android:onClick="left_top"/>
 
                 </LinearLayout>
 
@@ -110,10 +118,12 @@
                     android:layout_width="0dp"
                     android:layout_weight="1" >
                     <Button
+                        android:id="@+id/left_left"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:textSize="40dp"
-                        android:text="b" />
+                        android:text="@string/left_left"
+                        android:onClick="left_left" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -130,10 +140,13 @@
                     android:layout_width="0dp"
                     android:layout_weight="1" >
                     <Button
+                        android:id="@+id/left_right"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:textSize="40dp"
-                        android:text="c" />
+                        android:text="@string/left_right"
+                        android:onClick="left_right" />
+
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout
@@ -153,10 +166,12 @@
                     android:layout_weight="1" >
 
                     <Button
+                        android:id="@+id/left_bottom"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:textSize="40dp"
-                        android:text="d" />
+                        android:text="@string/left_bottom"
+                        android:onClick="left_bottom" />
 
                 </LinearLayout>
 
@@ -176,17 +191,19 @@
         android:layout_height="match_parent"
         android:layout_width="0dp"
         android:layout_weight="2" >
-
-        <EditText
-            android:id="@+id/sensor_output_data"
+        <!--
+        <TextView
+            android:id="@+id/sensor_data_output"
             android:layout_height="match_parent"
             android:layout_width="match_parent" />
-        <!--
+        -->
+
         <VideoView
             android:id="@+id/videoview"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content" />
-            -->
+
+
 
     </LinearLayout>
     <LinearLayout
@@ -205,13 +222,22 @@
                 android:layout_height="0dp"
                 android:layout_width="match_parent"
                 android:layout_weight="1" >
-
                 <TextView
+                    android:id="@+id/camera_status"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Sensor Status:">
-                </TextView>
+                    android:text="@string/camera_status" />
 
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:layout_weight="1" >
+                <TextView
+                    android:id="@+id/sensor_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/sensor_status" />
             </LinearLayout>
             <LinearLayout
                 android:layout_height="0dp"
@@ -219,30 +245,12 @@
                 android:layout_weight="1" >
 
                 <TextView
+                    android:id="@+id/network_status"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Camera Status:">
-                </TextView>
+                    android:text="@string/network_status" />
 
             </LinearLayout>
-            <LinearLayout
-                android:layout_height="0dp"
-                android:layout_width="match_parent"
-                android:layout_weight="1" >
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="Network Information:">
-                </TextView>
-
-            </LinearLayout>
-
-
-
-
-
-
 
 
 
@@ -275,10 +283,12 @@
                     android:layout_weight="1" >
 
                     <Button
+                        android:id="@+id/right_top"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:textSize="40dp"
-                        android:text="w" />
+                        android:text="@string/right_top"
+                        android:onClick="right_top"/>
 
                 </LinearLayout>
 
@@ -301,10 +311,12 @@
                     android:layout_width="0dp"
                     android:layout_weight="1" >
                     <Button
+                        android:id="@+id/right_left"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:textSize="40dp"
-                        android:text="x" />
+                        android:text="@string/right_left"
+                        android:onClick="right_left"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -321,10 +333,12 @@
                     android:layout_width="0dp"
                     android:layout_weight="1" >
                     <Button
+                        android:id="@+id/right_right"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:textSize="40dp"
-                        android:text="y" />
+                        android:text="@string/right_right"
+                        android:onClick="right_right"/>
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout
@@ -344,10 +358,12 @@
                     android:layout_weight="1" >
 
                     <Button
+                        android:id="@+id/right_bottom"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:textSize="40dp"
-                        android:text="z" />
+                        android:text="@string/right_bottom"
+                        android:onClick="right_bottom"/>
 
                 </LinearLayout>
 
@@ -358,7 +374,6 @@
 
                 </LinearLayout>
             </LinearLayout>
-
 
         </LinearLayout>
 

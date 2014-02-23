@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <!--LANGUAGE: English -->
+    
     <!--Global App info-->
     <string name="app_name">ProjectBlimp</string>
     <string name="action_settings">Settings</string>
 
     <!--MainActivity-->
     <string name="hello_world">Hello world!</string>
+    <string name="camera_data">Camera Data</string>
+    <string name="sensor_data">Sensor Data</string>
+    <string name="right_top">w</string>
+    <string name="right_left">x</string>
+    <string name="right_right">y</string>
+    <string name="right_bottom">z</string>
+    <string name="left_top">a</string>
+    <string name="left_left">b</string>
+    <string name="left_right">c</string>
+    <string name="left_bottom">d</string>
+    <string name="lights">lights</string>
+    <string name="camera_status">Camera Status</string>
+    <string name="sensor_status">Sensor Status</string>
+    <string name="network_status">Network Status</string>
 
     <!--VideoScreen-->
     <string name="title_activity_video_screen">VideoScreen</string>
-
-
 
 </resources>
