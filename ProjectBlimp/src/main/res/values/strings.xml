@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!--Global App info-->
     <string name="app_name">ProjectBlimp</string>
     <string name="action_settings">Settings</string>
+
+    <!--MainActivity-->
     <string name="hello_world">Hello world!</string>
+
+    <!--VideoScreen-->
     <string name="title_activity_video_screen">VideoScreen</string>
+
+
 
 </resources>
