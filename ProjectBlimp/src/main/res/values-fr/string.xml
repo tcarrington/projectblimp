@@ -8,7 +8,7 @@
 
     <!--MainActivity-->
     <string name="hello_world">Bonjour tout le monde!</string>
-    <string name="camera_data">Les données de l'appareil photo</string>
+    <string name="camera_data">Les données de l\'appareil photo</string>
     <string name="sensor_data">des données de capteurs</string>
     <string name="right_top">w</string>
     <string name="right_left">x</string>
